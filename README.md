@@ -1,7 +1,8 @@
-# individual-project
-# Customer Demographics & Spending Analysis
+# Vehicle Fuel Efficiency Analysis
 
-This project uses basic data analysis and visualization techniques in Python to explore customer demographic and spending patterns. The notebook loads a dataset, performs cleaning, statistical summaries, and generates charts to identify key insights.
+## Project Description
+
+This project analyzes vehicle characteristics and their impact on fuel efficiency using the Auto MPG dataset. It involves data cleaning, statistical analysis, and visualizations to uncover relationships between variables like engine size, horsepower, weight, and miles per gallon (MPG). The goal is to better understand what factors influence fuel economy in cars from various years and origins.
 
 ## Getting Started
 
@@ -9,14 +10,18 @@ These instructions will help you set up the project on your local machine.
 
 ### Prerequisites
 
-You'll need Python 3.x and the following libraries installed:
+You'll need Python 3.x and the following libraries installed: pandas numpy matplotlib seaborn scipy
 ```
-pandas numpy matplotlib seaborn
+import numpy as np
+import scipy as sp
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
 ```
 
 You can install them using pip:
 ```
-pip install pandas numpy matplotlib seaborn
+pip install pandas numpy matplotlib seaborn scipy
 ```
 
 ### Installing
@@ -30,8 +35,9 @@ git clone https://github.com/emikeadolphus/individual-project.git cd individual-
 ```
 jupyter notebook Lab3_1.ipynb
 ```
+3. Load the dataset (auto.csv) file.
 
-3. Run all cells to view data cleaning, summaries, and visualizations.
+4. Run all cells to view data cleaning, summaries, and visualizations.
 
 ## Running the tests
 
@@ -73,7 +79,7 @@ Version 1.0 — April 2025
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE.md file for details.
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Acknowledgments
 
