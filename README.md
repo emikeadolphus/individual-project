@@ -10,18 +10,26 @@ These instructions will help you set up the project on your local machine.
 ### Prerequisites
 
 You'll need Python 3.x and the following libraries installed:
-pandas, numpy, matplotlib, seaborn
+```
+pandas numpy matplotlib seaborn
+```
 
 You can install them using pip:
+```
 pip install pandas numpy matplotlib seaborn
+```
 
 ### Installing
 
 1. Clone the repository:
-git clone https://github.com/your-username/customer-analysis-lab3.git cd customer-analysis-lab3
+```
+git clone https://github.com/emikeadolphus/individual-project.git cd individual-project
+```
 
 2. Open the notebook in Jupyter:
+```
 jupyter notebook Lab3_1.ipynb
+```
 
 3. Run all cells to view data cleaning, summaries, and visualizations.
 
